@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HBBaseViewController.h
 //  送个东西
 //
 //  Created by 蒋宽 on 15/6/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HBBaseViewController : UIViewController
 
 @end
-

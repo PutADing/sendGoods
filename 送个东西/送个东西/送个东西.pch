@@ -1,0 +1,44 @@
+//
+//  送个东西.pch
+//  送个东西
+//
+//  Created by 蒋宽 on 15/6/3.
+//  Copyright (c) 2015年 蒋宽. All rights reserved.
+//
+
+#ifndef __________pch
+#define __________pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//状态栏+导航栏的高度
+#define NAVIGATIOINBARHEIGHT ([[UIApplication sharedApplication] statusBarFrame].size.height + self.navigationController.navigationBar.frame.size.height)
+//屏幕宽 高
+#define VIEWWIDTH self.view.frame.size.width
+#define VIEWHEIGHT self.view.frame.size.height
+//tableViewCell默认行高
+#define DEFAULT_CELLHEIGHT 50
+
+//用户默认头像
+#define DEFAULT_HEADIMAGE [UIImage imageNamed:@"defaultHeadImage.png"]
+
+//字体大小
+#define FONT15 [UIFont boldSystemFontOfSize:15]
+#define FONT17 [UIFont boldSystemFontOfSize:17]
+#define FONT20 [UIFont boldSystemFontOfSize:20]
+
+//颜色
+#define BACKGROUNDCOLOR_GRAY [UIColor colorWithRed:222.0f/255 green:222.0f/255 blue:222.0f/255 alpha:1.0f]
+#define WHITECOLOR [UIColor whiteColor]
+#define BLACKCOLOR [UIColor blackColor]
+#define GREENCOLOR [UIColor greenColor]
+#define BLUECOLOR [UIColor blueColor]
+#define REDCOLOR [UIColor redColor]
+#define THEMECOLOR [UIColor colorWithRed:30.0f/255 green:179.0f/255 blue:229.0f/255 alpha:1.0f]
+
+
+
+
+#endif
